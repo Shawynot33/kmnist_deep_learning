@@ -59,16 +59,27 @@ This setup provided the best balance between learning capacity and generalisatio
 * Final Test Loss: 0.352
 
 **Confusion Matrix**
+
 The confusion matrix shows how the model performed on each KMNIST character class. Darker squares indiciate higher accuracy per class.
 
 ![Confusion Matrix](images/kmnist_conf_matrix.png)
 
 
 ## Key Learnings
-
+* High training accuracy does not guarantee good generalisation
+* Validation tracking is essential for identifying overfitting early
+* Dropout and weight decay improve robustness
+* Simple Neural Network can achieve a high accuracy for the KMNIST dataset
 
 ## Future Improvements
 
+Possible extensions of this work include:
+
+* Adding batch normalisation
+* Testing CNN architectures for improved feature extraction
+* Performing automated hyperparameter search (e.g. Optuna)
+* Applying transfer learning approaches
+* Visualising misclassified characters
 
 ## Repository Contents
 * Kmnist_notebook.ipynb
