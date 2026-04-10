@@ -25,6 +25,9 @@ KMNIST is a drop-in replacement for MNIST, containing:
 
 It provides a more challenging classification task than standard MNIST.
 
+Below is an example of what the images look like:
+![kmnist image](images/kmnist_image.png)
+
 ## Experiment Summary
 A progressive set of experiments was performed to improve model performance.
 
